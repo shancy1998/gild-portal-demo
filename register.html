@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Create account | GILD Portal</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="index.html"><span class="brand-mark">G</span> GILD <span class="brand-light">PORTAL</span></a>
+    <nav class="site-nav" aria-label="Main navigation"></nav>
+  </header>
+  <main class="form-page">
+    <section class="card form-card">
+      <p class="eyebrow">START YOUR JOURNEY</p>
+      <h1>Create candidate account</h1>
+      <p class="muted">Preview the candidate sign-up flow. This demo does not create an account.</p>
+      <form data-demo-form id="registration-form">
+        <label>Full Name
+          <input name="name" type="text" required autocomplete="name" placeholder="Your full name">
+        </label>
+        <label>Mobile Number
+          <input name="mobile" type="tel" required autocomplete="tel" inputmode="tel" placeholder="+91 98765 43210">
+        </label>
+        <label>Email
+          <input name="email" type="email" required autocomplete="email" placeholder="you@example.com">
+        </label>
+        <label>Password
+          <input id="password" name="password" type="password" minlength="8" required autocomplete="new-password" placeholder="At least 8 characters">
+        </label>
+        <label>Confirm Password
+          <input id="confirm-password" name="confirmPassword" type="password" minlength="8" required autocomplete="new-password" placeholder="Enter the same password again">
+        </label>
+        <label class="check-label"><input type="checkbox" required> I have read the privacy notice for this demo.</label>
+        <button class="button button-primary button-wide" type="submit">Continue in demo</button>
+        <p class="form-message" aria-live="polite"></p>
+      </form>
+      <p class="form-foot">Already registered? <a href="login.html">Log in</a></p>
+      <p class="notice">Demo only: no account is created and no personal data or documents are saved or sent. Use fictional details only. Secure sign-up and uploads are not available yet.</p>
+    </section>
+  </main>
+  <footer class="site-footer"><span>© <span data-year></span> GILD Portal</span><span>Prototype only · Do not submit real personal documents</span></footer>
+</body>
+</html>
